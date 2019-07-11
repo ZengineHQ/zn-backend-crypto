@@ -1,0 +1,22 @@
+{
+  "name": "@zenginehq/backend-crypto",
+  "version": "1.0.0",
+  "description": "Helper library for encryption and decryption in Zengine backend plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --require test/_bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZengineHQ/zn-backend-crypto.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cryptr": "4.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
